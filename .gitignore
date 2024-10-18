@@ -1,0 +1,21 @@
+# Ignorar imágenes PNG
+*.png
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos temporales de TestComplete
+*.tcLog
+*.tcCfg
+
+# Ignorar carpetas de resultados de pruebas
+/Results/
+/Logs/
+
+# Ignorar archivos generados automáticamente
+*.tmp
+*.bak
+
+# Ignorar archivos de configuración locales o específicos de usuario
+*.tcResult
+*.tclogx

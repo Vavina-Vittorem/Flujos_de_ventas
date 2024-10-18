@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{AC9FB495-5ABE-4802-B35F-A3CC7981426D}">
+	<children>
+		<child name="Flujo_de_ventas" key="{B7A4A38B-3476-489F-9EDD-DC9A337C68E6}" path="Flujo_de_ventas\Flujo_de_ventas.mds" />
+	</children>
+	<testItems key="{C5427184-CED9-4C3D-8BF3-52F91B389A70}">
+		<children>
+			<testItem key="{B7A4A38B-3476-489F-9EDD-DC9A337C68E6}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{23293720-7B84-43D5-8EC8-BD96D6D1AB56}" />
+	<analysis key="{1BF275A6-D222-4ADA-A021-8E2E14CE93B2}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

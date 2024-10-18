@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Common">
+			<folder name="Tickets">
+				<child name="CreacionTicket" key="{C600601D-1393-4B95-9930-D3481F80CD9F}" path="CreacionTicket.py" />
+				<child name="DetalleTicket" key="{EBE8D247-A18D-43EE-BD0A-CA8E01EB5D4C}" path="DetalleTicket.py" />
+				<child name="Importe_FP_Ticket" key="{2B71B8DE-8F97-455A-BA42-BD5C91693DC2}" path="Importe_FP_Ticket.py" />
+				<child name="ImpuestoAt_Ticket" key="{38C4FA40-46A5-4FB4-9EB3-44B0095FF71A}" path="ImpuestoAt_Ticket.py" />
+				<child name="TasaImpuestoTicket" key="{896F1D7A-E6AF-4ADF-9A8A-6A0F25B95D39}" path="TasaImpuestoTicket.py" />
+				<child name="Test_Tickets" key="{175C946E-2682-4AE8-98A4-612CEB8C30BA}" path="Test_Tickets.py" />
+			</folder>
+			<child name="Login" key="{4CEABF51-CF58-4F40-AC34-8FCA53FAAA29}" path="Login.py" />
+			<child name="Consulta_caja" key="{2E4B4729-6623-41C4-BE27-3A489263DA9B}" path="Consulta_caja.py" />
+			<child name="Cancelar_compra" key="{F86F667D-2F52-4367-B903-A49B578E1825}" path="Cancelar_compra.py" />
+		</folder>
+		<folder name="F_Efectivo">
+			<child name="MontoMen_E" key="{104BF17F-554C-45EF-9E90-E8F146E6FB65}" path="MontoMen_E.py" />
+			<child name="MontoMay_E" key="{8DFE3B14-1821-4228-A208-3D440BAE2FCB}" path="MontoMay_E.py" />
+			<child name="MontoEq_E" key="{C32852C9-3D40-482E-B609-F3561FFCD921}" path="MontoEq_E.py" />
+			<child name="Test_Efectivo" key="{5E0B5406-0F71-46EC-9691-32F22AFA151B}" path="Test_Efectivo.py" />
+		</folder>
+		<folder name="F_Dolares">
+			<child name="MontoMen_D" key="{E0F9387F-25FC-4932-A04E-377420EA7703}" path="MontoMen_D.py" />
+			<child name="MontoMay_D" key="{9B332C05-8D9A-4AD1-A758-2287BE7AA812}" path="MontoMay_D.py" />
+			<child name="MontoEq_D" key="{60B0B183-F4A1-42D3-B9B6-61F473888331}" path="MontoEq_D.py" />
+			<child name="Test_Dolares" key="{D6089864-617E-4071-9233-B0E96AD6CF01}" path="Test_Dolares.py" />
+		</folder>
+		<folder name="F_Mixto">
+			<child name="Mix_2_Elem" key="{4E432F40-B1D5-44A6-BC33-E0D542BFE6FF}" path="Mix_2_Elem.py" />
+			<child name="Mix_3_Elem" key="{95FBB7D5-E330-45BE-9830-2527701DC87B}" path="Mix_3_Elem.py" />
+			<child name="Test_Mixto" key="{26717972-E6ED-4DD2-BCCF-FAF6A0E56E83}" path="Test_Mixto.py" />
+		</folder>
+		<folder name="F_Tarjeta">
+			<child name="Tarjeta" key="{A6608402-9CD2-445B-B01A-FB42F2450F81}" path="Tarjeta.py" />
+			<child name="Test_Tarjeta" key="{3C68DB1E-1B09-4A15-A6F6-BB05E16A30CF}" path="Test_Tarjeta.py" />
+		</folder>
+		<child name="Flujo_Completo" key="{982018A4-C43D-4FBC-ACA1-0D875FC0C059}" path="Flujo_Completo.py" />
+	</children>
+</Root>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{D90E23AC-30D2-4CB4-BA39-66D97FB25776}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45582.603599537" objectName="Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso" objectLeft="1130" objectTop="598" objectRight="1260" objectBottom="624" clickPointX="-321" clickPointY="-31" imageFileName="tcvi7392973489921.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45582.6036226852" objectName="Aliases.CCPDV.FrmReportesCC.npnlBase.nvpnlReportes" objectLeft="7" objectTop="128" objectRight="388" objectBottom="698" clickPointX="118" clickPointY="193" imageFileName="tcvi7393193789922.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45582.6036574074" objectName="Aliases.CCPDV.FrmVisorReportes.npnlBase.txtReporte" objectLeft="15" objectTop="125" objectRight="440" objectBottom="611" clickPointX="188" clickPointY="329" imageFileName="tcvi7393498489923.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45582.6036805556" objectName="Aliases.CCPDV.FrmVisorReportes.npnlBase.btnCerrar" objectLeft="331" objectTop="619" objectRight="440" objectBottom="655" clickPointX="375" clickPointY="641" imageFileName="tcvi7393693789924.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

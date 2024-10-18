@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Efectivo">
+			<child name="M_E_efectivo" key="{82E8BED2-4885-4DAF-866D-5C9C8088CD1E}" path="M_E_efectivo.tcKDTest" />
+			<child name="M_S_efectivo" key="{2DB692C5-B93D-43FF-B3A7-73F9654C588E}" path="M_S_efectivo.tcKDTest" />
+			<child name="M_M_efectivo" key="{75C17898-8081-488E-B69D-3CDBE6563290}" path="M_M_efectivo.tcKDTest" />
+		</folder>
+		<folder name="Common">
+			<child name="Login" key="{511BE6EA-A219-48FE-BFBA-A6EF960BA109}" path="Login.tcKDTest" />
+			<child name="cancelar_compra" key="{A664A433-3C53-401E-B323-64526AC109CB}" path="cancelar_compra.tcKDTest" />
+			<child name="PostConsulta_val_caja" key="{D90E23AC-30D2-4CB4-BA39-66D97FB25776}" path="PostConsulta_val_caja.tcKDTest" />
+			<child name="Consulta_valores_caja" key="{7B10F4B1-4CE1-493A-8D9F-D9D24A7D56FD}" path="Consulta_valores_caja.tcKDTest" />
+			<child name="Tickets" key="{5331C5E6-9831-4587-B158-2BB734CA5F09}" path="Tickets.tcKDTest" />
+		</folder>
+		<folder name="Dolares">
+			<child name="M_E_dolares" key="{D2105935-622B-4E7E-93CC-0607845309E3}" path="M_E_dolares.tcKDTest" />
+			<child name="M_M_dolares" key="{C104B735-4003-4347-83ED-5DAE468D2922}" path="M_M_dolares.tcKDTest" />
+			<child name="M_S_dolares" key="{22262DB1-D317-474B-9D29-6D39AB458BF8}" path="M_S_dolares.tcKDTest" />
+		</folder>
+		<folder name="Tarjeta">
+			<child name="Flujo_Tarjeta" key="{5AA4CCED-6F30-44AF-AC15-2E2AB4F19609}" path="Flujo_Tarjeta.tcKDTest" />
+		</folder>
+		<folder name="Mixto">
+			<child name="Mixto_2_elementos_OK" key="{FC38A31C-3951-4A80-8D8E-04F596712B0A}" path="Mixto_2_elementos_OK.tcKDTest" />
+			<child name="Mixto_3_elementos_NOT" key="{7ED40667-ADB5-46D4-A35D-63AEE8265CC8}" path="Mixto_3_elementos_NOT.tcKDTest" />
+		</folder>
+	</children>
+</Root>

@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{7821EB99-9F54-454A-862F-10CB43AAA154}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="CCPDV" Key="{CFE5E78C-5713-4E3C-9C5E-C7639CF7960B}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="CCPDV" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="FrmPOS" Key="{93D6E257-342D-499B-AA04-5830AFD16061}">
+								<Image FileName="1812340978" Left="0" Top="0" Right="1280" Bottom="960" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="FrmPOS" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="npnlBase" Key="{B4D90ADC-F145-4327-9DC9-964A505666E9}">
+										<Image FileName="1812340978" Left="0" Top="0" Right="1280" Bottom="960" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="npnlBase" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="txtIngreso" Key="{7E2CF6BB-9197-4989-91EF-FEC2EE37AF7B}">
+												<Image FileName="-625811013" Left="1130" Top="598" Right="1260" Bottom="624" />
+												<TypeInfo Item0="{2426814A-C54D-4982-9FFB-ECD4418BCB59}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="txtIngreso" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="dgvRenglones" Key="{8131DCD2-9C6B-4581-9ED4-8A39BB262AC5}">
+												<Image FileName="-374126996" Left="25" Top="98" Right="838" Bottom="808" />
+												<TypeInfo Item0="{D6F02EC1-7350-4E3B-AF5F-161FC97BA478}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="dgvRenglones" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="nplDisponibleCashBack" Key="{1B71AD61-1FA3-4781-9A49-EDD5E569B582}">
+												<Image FileName="1468428702" Left="856" Top="5" Right="1081" Bottom="43" />
+												<TypeInfo Item0="{96F73875-E016-4771-B802-5824A04D89E3}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="nplDisponibleCashBack" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="FrmReportesCC" Key="{A4E6B096-DBA9-4B48-AFF7-E3F3E106C918}">
+								<Image FileName="2096283146" Left="0" Top="0" Right="396" Bottom="701" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="FrmReportesCC" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="npnlBase" Key="{EA8054FB-91EC-4790-A6AB-41B73D50EAC0}">
+										<Image FileName="2096283146" Left="0" Top="0" Right="396" Bottom="701" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="npnlBase" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="nvpnlReportes" Key="{79A81DED-16F8-47AA-8398-879AC576E3C8}">
+												<Image FileName="2096283146" Left="7" Top="128" Right="388" Bottom="698" />
+												<TypeInfo Item0="{CFD13A68-60A5-475D-B5E1-434B3A2643FC}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="nvpnlReportes" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="FrmVisorReportes" Key="{B317BE28-3BA8-4686-85C0-80744C6A2C35}">
+								<Image FileName="1172334331" Left="0" Top="0" Right="455" Bottom="670" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="FrmVisorReportes" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="npnlBase" Key="{22608731-AFA7-4DA8-BCB9-E19A1F8A5D0E}">
+										<Image FileName="1172334331" Left="0" Top="0" Right="455" Bottom="670" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="npnlBase" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="txtReporte" Key="{03527783-87D3-4A41-A19B-8E5609E8BCAD}">
+												<Image FileName="1172334331" Left="15" Top="125" Right="440" Bottom="611" />
+												<TypeInfo Item0="{2426814A-C54D-4982-9FFB-ECD4418BCB59}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="txtReporte" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="btnCerrar" Key="{0C3CC52F-4109-41FB-AC30-53D0DEE5908F}">
+												<Image FileName="-410576567" Left="331" Top="619" Right="440" Bottom="655" />
+												<TypeInfo Item0="{6D75F8F9-9042-4EEF-9316-1A5A28554656}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="btnCerrar" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="FrmBuscadorArticulosReducido" Key="{7ED938DF-D1E0-4C5A-9932-67DA3AB9E239}">
+								<Image FileName="-1710234746" Left="0" Top="0" Right="1280" Bottom="700" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="FrmBuscadorArticulosReducido" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="npnlBase" Key="{E11649CB-33A5-42E4-AFF4-6046C66FBAAE}">
+										<Image FileName="-1710234746" Left="0" Top="0" Right="1280" Bottom="700" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="npnlBase" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="txtBusqueda" Key="{0EB6372B-3DDC-4C7E-8038-355A4D5AA91B}">
+												<Image FileName="-1710234746" Left="130" Top="130" Right="380" Bottom="158" />
+												<TypeInfo Item0="{2426814A-C54D-4982-9FFB-ECD4418BCB59}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="txtBusqueda" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="dgvDatos" Key="{5802AC92-9115-4C10-9B40-39AFFA914151}">
+												<Image FileName="-1710234746" Left="15" Top="165" Right="1265" Bottom="570" />
+												<TypeInfo Item0="{D6F02EC1-7350-4E3B-AF5F-161FC97BA478}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="dgvDatos" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="FrmMain" Key="{76678AAC-D2A3-41FB-9415-8BCD5C420E1D}">
+								<Image FileName="-838632132" Left="0" Top="0" Right="839" Bottom="418" />
+								<TypeInfo Item0="{A92509FA-2ADC-4307-854C-49CBD6A51A17}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="FrmMain" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="FrmSubTotal" Key="{0D86B7E6-7FC8-405C-B155-D268CEBE292F}">
+								<Image FileName="-603726465" Left="0" Top="0" Right="839" Bottom="290" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="FrmSubTotal" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="npnlBase" Key="{C7188AC9-E496-433D-95DE-2FFC686C6783}">
+										<Image FileName="-603726465" Left="0" Top="0" Right="839" Bottom="290" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="npnlBase" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="pnlRenglones" Key="{00FD0D6C-87FE-4AB7-AC2D-702C86002912}">
+												<Image FileName="-603726465" Left="15" Top="124" Right="824" Bottom="275" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="pnlRenglones" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="RenglonSubtotal" Key="{D19F8DDA-4D57-486A-892E-EB31EB4D1BC3}">
+														<Image FileName="-603726465" Left="20" Top="129" Right="816" Bottom="163" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="RenglonSubtotal" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="txtFPCodigo" Key="{D2F84277-C6D5-4722-91A9-02DD4781604C}">
+																<Image FileName="-603726465" Left="128" Top="129" Right="178" Bottom="163" />
+																<TypeInfo Item0="{2426814A-C54D-4982-9FFB-ECD4418BCB59}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="txtFPCodigo" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="txtMonto" Key="{BFA1768A-271F-4AE3-84C9-F18C83BE8731}">
+																<Image FileName="-1774774667" Left="521" Top="129" Right="621" Bottom="163" />
+																<TypeInfo Item0="{2426814A-C54D-4982-9FFB-ECD4418BCB59}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="txtMonto" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="FrmCambioDinero" Key="{EE1FF27F-075E-43D3-827D-BB9A47711D51}">
+								<Image FileName="-985955042" Left="0" Top="0" Right="500" Bottom="250" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="FrmCambioDinero" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="npnlBase" Key="{57EFE3CD-7336-4E38-9693-3DEEB722944E}">
+										<Image FileName="-985955042" Left="0" Top="0" Right="500" Bottom="250" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="npnlBase" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="lblCambioDesc" Key="{A23AA9A9-7441-4290-9B92-519DBAF1BA0F}">
+												<Image FileName="-985955042" Left="16" Top="88" Right="485" Bottom="189" />
+												<TypeInfo Item0="{96F73875-E016-4771-B802-5824A04D89E3}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="lblCambioDesc" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="btnAceptar" Key="{9CDD6DCA-FC4B-4B59-8383-D5F01CDB6B8E}">
+												<Image FileName="1882315424" Left="203" Top="193" Right="299" Bottom="229" />
+												<TypeInfo Item0="{6D75F8F9-9042-4EEF-9316-1A5A28554656}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="btnAceptar" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="FrmPrincipal" Key="{A0B3BE5C-34BB-4BFF-94D6-BFD76C470595}">
+								<Image FileName="-1592216352" Left="0" Top="0" Right="618" Bottom="434" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="FrmPrincipal" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="npnlBase" Key="{A6375F90-60C8-4B95-AF0E-213E2D47BE41}">
+										<Image FileName="-1592216352" Left="0" Top="0" Right="618" Bottom="434" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="npnlBase" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="lblPOS" Key="{CAF979FC-39EB-4E58-8D77-8418FEC7932D}">
+												<Image FileName="-1592216352" Left="203" Top="98" Right="489" Bottom="132" />
+												<TypeInfo Item0="{96F73875-E016-4771-B802-5824A04D89E3}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="lblPOS" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="FrmIngreso" Key="{004D10D7-55DC-4E4D-8E14-68AEB7999E59}">
+								<Image FileName="-902201927" Left="0" Top="0" Right="468" Bottom="245" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="FrmIngreso" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="npnlBase" Key="{0DC34295-F2D2-452A-9F5E-5A878DA4A617}">
+										<Image FileName="-902201927" Left="0" Top="0" Right="468" Bottom="245" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="npnlBase" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="txtUsuario" Key="{38A5B1E8-D4D4-466A-A657-D7D2A8D76D8B}">
+												<Image FileName="-902201927" Left="127" Top="59" Right="453" Bottom="92" />
+												<TypeInfo Item0="{2426814A-C54D-4982-9FFB-ECD4418BCB59}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="txtUsuario" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="txtContrasena" Key="{5D6F1ADD-6E7B-45DD-8CAB-DF1B80AEA16C}">
+												<Image FileName="338494906" Left="127" Top="102" Right="453" Bottom="135" />
+												<TypeInfo Item0="{2426814A-C54D-4982-9FFB-ECD4418BCB59}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="txtContrasena" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="FrmMotivoCancelacion" Key="{06D38142-303E-4A95-BD52-9FEC17D8BEB6}">
+								<Image FileName="-1412619720" Left="0" Top="0" Right="394" Bottom="196" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="FrmMotivoCancelacion" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="npnlBase" Key="{3222A8AC-E876-41DE-96EC-C8CF5F36BA5F}">
+										<Image FileName="-1412619720" Left="0" Top="0" Right="394" Bottom="196" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="npnlBase" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="cmbMotivoCancelacion" Key="{CBF93B52-26C1-4020-B1F4-8D2F027572B7}">
+												<Image FileName="-1412619720" Left="93" Top="132" Right="376" Bottom="166" />
+												<TypeInfo Item0="{B4B5B7FB-82E3-416C-94F5-80B7E5DA49C6}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="cmbMotivoCancelacion" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="FrmMensaje" Key="{6E1ABE76-9636-429C-847E-E325576B33D0}">
+								<Image FileName="-1970247923" Left="0" Top="0" Right="625" Bottom="250" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="FrmMensaje" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="pictureBox1" Key="{455E8186-A5E8-492E-B4EC-B93238CE7E37}">
+										<Image FileName="-1970247923" Left="18" Top="63" Right="293" Bottom="251" />
+										<TypeInfo Item0="{96F73875-E016-4771-B802-5824A04D89E3}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="pictureBox1" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="lblMensaje" Key="{8AECA1CC-7819-45BC-B155-9077F4B63658}">
+										<Image FileName="975728904" Left="301" Top="63" Right="595" Bottom="228" />
+										<TypeInfo Item0="{96F73875-E016-4771-B802-5824A04D89E3}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="lblMensaje" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgCOMPUCAJAnet" Key="{DC6D430E-FC80-4323-99B3-5BB0FE2E8F96}">
+								<Image FileName="1656371715" Left="0" Top="0" Right="513" Bottom="186" />
+								<TypeInfo Item0="{D94FF820-08CA-4714-B533-221BC27043DF}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="COMPUCAJA .net" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnAceptar" Key="{6E0DF98F-0290-4B74-B77C-3AD68A049A47}">
+										<Image FileName="1509293358" Left="396" Top="142" Right="490" Bottom="171" />
+										<TypeInfo Item0="{6D75F8F9-9042-4EEF-9316-1A5A28554656}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Aceptar" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="FrmCancelados" Key="{12E642D5-0255-4928-8F4D-A9091B8359BD}">
+								<Image FileName="-1222213986" Left="0" Top="0" Right="690" Bottom="514" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="FrmCancelados" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="npnlBase" Key="{8FFE2200-1A8B-4418-92E3-2CB78414B4CE}">
+										<Image FileName="-1222213986" Left="0" Top="0" Right="690" Bottom="514" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="npnlBase" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="btnAceptar" Key="{29825EF6-0F00-412C-820A-ED7ED693E57C}">
+												<Image FileName="-1222213986" Left="468" Top="463" Right="564" Bottom="499" />
+												<TypeInfo Item0="{6D75F8F9-9042-4EEF-9316-1A5A28554656}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="btnAceptar" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="CCPDV" Owner="{CFE5E78C-5713-4E3C-9C5E-C7639CF7960B}">
+			<Child Name="FrmPOS" Owner="{93D6E257-342D-499B-AA04-5830AFD16061}">
+				<Child Name="npnlBase" Owner="{B4D90ADC-F145-4327-9DC9-964A505666E9}">
+					<Child Name="txtIngreso" Owner="{7E2CF6BB-9197-4989-91EF-FEC2EE37AF7B}" />
+					<Child Name="dgvRenglones" Owner="{8131DCD2-9C6B-4581-9ED4-8A39BB262AC5}" />
+					<Child Name="nplDisponibleCashBack" Owner="{1B71AD61-1FA3-4781-9A49-EDD5E569B582}" />
+				</Child>
+			</Child>
+			<Child Name="FrmReportesCC" Owner="{A4E6B096-DBA9-4B48-AFF7-E3F3E106C918}">
+				<Child Name="npnlBase" Owner="{EA8054FB-91EC-4790-A6AB-41B73D50EAC0}">
+					<Child Name="nvpnlReportes" Owner="{79A81DED-16F8-47AA-8398-879AC576E3C8}" />
+				</Child>
+			</Child>
+			<Child Name="FrmVisorReportes" Owner="{B317BE28-3BA8-4686-85C0-80744C6A2C35}">
+				<Child Name="npnlBase" Owner="{22608731-AFA7-4DA8-BCB9-E19A1F8A5D0E}">
+					<Child Name="txtReporte" Owner="{03527783-87D3-4A41-A19B-8E5609E8BCAD}" />
+					<Child Name="btnCerrar" Owner="{0C3CC52F-4109-41FB-AC30-53D0DEE5908F}" />
+				</Child>
+			</Child>
+			<Child Name="FrmBuscadorArticulosReducido" Owner="{7ED938DF-D1E0-4C5A-9932-67DA3AB9E239}">
+				<Child Name="npnlBase" Owner="{E11649CB-33A5-42E4-AFF4-6046C66FBAAE}">
+					<Child Name="txtBusqueda" Owner="{0EB6372B-3DDC-4C7E-8038-355A4D5AA91B}" />
+					<Child Name="dgvDatos" Owner="{5802AC92-9115-4C10-9B40-39AFFA914151}" />
+				</Child>
+			</Child>
+			<Child Name="FrmMain" Owner="{76678AAC-D2A3-41FB-9415-8BCD5C420E1D}" />
+			<Child Name="FrmSubTotal" Owner="{0D86B7E6-7FC8-405C-B155-D268CEBE292F}">
+				<Child Name="npnlBase" Owner="{C7188AC9-E496-433D-95DE-2FFC686C6783}">
+					<Child Name="pnlRenglones" Owner="{00FD0D6C-87FE-4AB7-AC2D-702C86002912}">
+						<Child Name="RenglonSubtotal" Owner="{D19F8DDA-4D57-486A-892E-EB31EB4D1BC3}">
+							<Child Name="txtFPCodigo" Owner="{D2F84277-C6D5-4722-91A9-02DD4781604C}" />
+							<Child Name="txtMonto" Owner="{BFA1768A-271F-4AE3-84C9-F18C83BE8731}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="FrmCambioDinero" Owner="{EE1FF27F-075E-43D3-827D-BB9A47711D51}">
+				<Child Name="npnlBase" Owner="{57EFE3CD-7336-4E38-9693-3DEEB722944E}">
+					<Child Name="lblCambioDesc" Owner="{A23AA9A9-7441-4290-9B92-519DBAF1BA0F}" />
+					<Child Name="btnAceptar" Owner="{9CDD6DCA-FC4B-4B59-8383-D5F01CDB6B8E}" />
+				</Child>
+			</Child>
+			<Child Name="FrmPrincipal" Owner="{A0B3BE5C-34BB-4BFF-94D6-BFD76C470595}">
+				<Child Name="npnlBase" Owner="{A6375F90-60C8-4B95-AF0E-213E2D47BE41}">
+					<Child Name="lblPOS" Owner="{CAF979FC-39EB-4E58-8D77-8418FEC7932D}" />
+				</Child>
+			</Child>
+			<Child Name="FrmIngreso" Owner="{004D10D7-55DC-4E4D-8E14-68AEB7999E59}">
+				<Child Name="npnlBase" Owner="{0DC34295-F2D2-452A-9F5E-5A878DA4A617}">
+					<Child Name="txtUsuario" Owner="{38A5B1E8-D4D4-466A-A657-D7D2A8D76D8B}" />
+					<Child Name="txtContrasena" Owner="{5D6F1ADD-6E7B-45DD-8CAB-DF1B80AEA16C}" />
+				</Child>
+			</Child>
+			<Child Name="FrmMotivoCancelacion" Owner="{06D38142-303E-4A95-BD52-9FEC17D8BEB6}">
+				<Child Name="npnlBase" Owner="{3222A8AC-E876-41DE-96EC-C8CF5F36BA5F}">
+					<Child Name="cmbMotivoCancelacion" Owner="{CBF93B52-26C1-4020-B1F4-8D2F027572B7}" />
+				</Child>
+			</Child>
+			<Child Name="FrmMensaje" Owner="{6E1ABE76-9636-429C-847E-E325576B33D0}">
+				<Child Name="pictureBox1" Owner="{455E8186-A5E8-492E-B4EC-B93238CE7E37}" />
+				<Child Name="lblMensaje" Owner="{8AECA1CC-7819-45BC-B155-9077F4B63658}" />
+			</Child>
+			<Child Name="dlgCOMPUCAJAnet" Owner="{DC6D430E-FC80-4323-99B3-5BB0FE2E8F96}">
+				<Child Name="btnAceptar" Owner="{6E0DF98F-0290-4B74-B77C-3AD68A049A47}" />
+			</Child>
+			<Child Name="FrmCancelados" Owner="{12E642D5-0255-4928-8F4D-A9091B8359BD}">
+				<Child Name="npnlBase" Owner="{8FFE2200-1A8B-4418-92E3-2CB78414B4CE}">
+					<Child Name="btnAceptar" Owner="{29825EF6-0F00-412C-820A-ED7ED693E57C}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
