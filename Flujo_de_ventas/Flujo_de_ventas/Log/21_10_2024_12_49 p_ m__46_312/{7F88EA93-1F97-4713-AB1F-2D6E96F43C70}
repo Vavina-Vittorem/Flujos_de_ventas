@@ -1,0 +1,1483 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child data"/>
+		<Node name="message 22">
+			<Prp name="message" type="S" value="There was an attempt to perform an action at point (120, -162), which is overlapped by another window."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="stack end" type="I" value="3"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="See the previous overlapping window message for details.&#xA;&#xA;Tested object:&#xA;Aliases.CCPDV.FrmSubTotal.npnlBase.pnlRenglones.RenglonSubtotal.txtFPCodigo&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmSubTotal&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;pnlRenglones&quot;).WinFormsObject(&quot;RenglonSubtotal&quot;).WinFormsObject(&quot;txtFPCodigo&quot;))"/>
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="date" type="D" value="45586.5349377546"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="45582.6721759259"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="618"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object right" type="I" value="1260"/>
+					<Prp name="object bottom" type="I" value="624"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="598"/>
+					<Prp name="click point x" type="I" value="1175"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso"/>
+					<Prp name="image file name" type="S" value="tcvi7985414089920.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="1130"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45586.7845899884"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="494"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object right" type="I" value="1008"/>
+					<Prp name="object bottom" type="I" value="499"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="478"/>
+					<Prp name="click point x" type="I" value="940"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="904"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (36, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmPOS&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;txtIngreso&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.5345907639"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="stacktext" type="S" value="M_S_dolares"/>
+		</Node>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45586.7845726042"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object right" type="I" value="1008"/>
+					<Prp name="object bottom" type="I" value="499"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="478"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="904"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'^r' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmPOS&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;txtIngreso&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.5345768056"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="units">
+			<Prp name="unit 3" type="S" value="{D6089864-617E-4071-9233-B0E96AD6CF01}"/>
+			<Prp name="unit 2" type="S" value="{9B332C05-8D9A-4AD1-A758-2287BE7AA812}"/>
+			<Prp name="unit 1" type="S" value="{60B0B183-F4A1-42D3-B9B6-61F473888331}"/>
+			<Prp name="unit 0" type="S" value="{669307B0-5825-449D-B953-0D08CB56A18A}"/>
+		</Node>
+		<Node name="item 4">
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="message 23">
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="stack end" type="I" value="4"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="stack beginning" type="I" value="4"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="date" type="D" value="45586.5349432523"/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="stacktext" type="S" value="test_dolares"/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="45582.6756134259"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="604"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object right" type="I" value="1260"/>
+					<Prp name="object bottom" type="I" value="624"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="598"/>
+					<Prp name="click point x" type="I" value="1219"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso"/>
+					<Prp name="image file name" type="S" value="tcvi8015190689920.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="1130"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage16_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45586.784809537"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="483"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object right" type="I" value="1008"/>
+					<Prp name="object bottom" type="I" value="499"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="478"/>
+					<Prp name="click point x" type="I" value="975"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="904"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A click at point (71, 5) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmPOS&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;txtIngreso&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.5348102778"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="45582.6721990741"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-161"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object right" type="I" value="380"/>
+					<Prp name="object bottom" type="I" value="158"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="130"/>
+					<Prp name="click point x" type="I" value="-321"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmBuscadorArticulosReducido.npnlBase.txtBusqueda"/>
+					<Prp name="image file name" type="S" value="tcvi7985679689922.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="130"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage5_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45586.7845953704"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object right" type="I" value="304"/>
+					<Prp name="object bottom" type="I" value="126"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="104"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmBuscadorArticulosReducido.npnlBase.txtBusqueda"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="104"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="'agua[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.CCPDV.FrmBuscadorArticulosReducido.npnlBase.txtBusqueda&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmBuscadorArticulosReducido&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;txtBusqueda&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.534607419"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="stacktext" type="S" value="test_dolares"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="45582.6728703704"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="203"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="object right" type="I" value="299"/>
+					<Prp name="object bottom" type="I" value="229"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="193"/>
+					<Prp name="click point x" type="I" value="269"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmCambioDinero.npnlBase.btnAceptar"/>
+					<Prp name="image file name" type="S" value="tcvi79914640899216.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="203"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage13_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45586.7847851736"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="168"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="object right" type="I" value="239"/>
+					<Prp name="object bottom" type="I" value="183"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="154"/>
+					<Prp name="click point x" type="I" value="200"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmCambioDinero.npnlBase.btnAceptar"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="162"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.CCPDV.FrmCambioDinero.npnlBase.btnAceptar&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmCambioDinero&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;btnAceptar&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.5347859954"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="45582.6728587963"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="141"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="object right" type="I" value="485"/>
+					<Prp name="object bottom" type="I" value="189"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="88"/>
+					<Prp name="click point x" type="I" value="201"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmCambioDinero.npnlBase.lblCambioDesc"/>
+					<Prp name="image file name" type="S" value="tcvi79913296899210.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="16"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage11_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45586.7847712963"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="113"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="object right" type="I" value="388"/>
+					<Prp name="object bottom" type="I" value="151"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="70"/>
+					<Prp name="click point x" type="I" value="161"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmCambioDinero.npnlBase.lblCambioDesc"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="13"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The drag operation was performed with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="The mouse cursor was dragged with the no key pressed.&#xA;&#xA;Start point: 148, 43.&#xA;End point: 235, 42.&#xA;Dragging distance: 87, -1.&#xA;&#xA;Tested object:&#xA;Aliases.CCPDV.FrmCambioDinero.npnlBase.lblCambioDesc&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmCambioDinero&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;lblCambioDesc&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.534775081"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="message" type="S" value="El valor de DOLARES es: 1,327.50"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.5345876157"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="45582.6722685185"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-161"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="1265"/>
+					<Prp name="object bottom" type="I" value="570"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="165"/>
+					<Prp name="click point x" type="I" value="-321"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmBuscadorArticulosReducido.npnlBase.dgvDatos"/>
+					<Prp name="image file name" type="S" value="tcvi7986292189924.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="15"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage7_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45586.7846135532"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object right" type="I" value="1012"/>
+					<Prp name="object bottom" type="I" value="456"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="132"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmBuscadorArticulosReducido.npnlBase.dgvDatos"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="12"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.CCPDV.FrmBuscadorArticulosReducido.npnlBase.dgvDatos&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmBuscadorArticulosReducido&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;dgvDatos&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.5346257639"/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="45582.6728587963"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="140"/>
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="object right" type="I" value="485"/>
+					<Prp name="object bottom" type="I" value="189"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="88"/>
+					<Prp name="click point x" type="I" value="310"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmCambioDinero.npnlBase.lblCambioDesc"/>
+					<Prp name="image file name" type="S" value="tcvi79913843899213.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="16"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage12_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45586.7847760648"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="112"/>
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="object right" type="I" value="388"/>
+					<Prp name="object bottom" type="I" value="151"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="70"/>
+					<Prp name="click point x" type="I" value="248"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmCambioDinero.npnlBase.lblCambioDesc"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="13"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (235, 42) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.CCPDV.FrmCambioDinero.npnlBase.lblCambioDesc&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmCambioDinero&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;lblCambioDesc&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.5347839236"/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="45582.675625"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-31"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object right" type="I" value="1260"/>
+					<Prp name="object bottom" type="I" value="624"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="598"/>
+					<Prp name="click point x" type="I" value="-321"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso"/>
+					<Prp name="image file name" type="S" value="tcvi8015267189921.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="1130"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage17_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45586.7848111343"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object right" type="I" value="1008"/>
+					<Prp name="object bottom" type="I" value="499"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="478"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="904"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmPOS&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;txtIngreso&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.5348123495"/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="45582.6729282407"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-31"/>
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="object right" type="I" value="838"/>
+					<Prp name="object bottom" type="I" value="808"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="98"/>
+					<Prp name="click point x" type="I" value="-321"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmPOS.npnlBase.dgvRenglones"/>
+					<Prp name="image file name" type="S" value="tcvi79919281899218.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="25"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage15_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45586.7848010417"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="object bottom" type="I" value="646"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="78"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmPOS.npnlBase.dgvRenglones"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="20"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="'[Esc]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.CCPDV.FrmPOS.npnlBase.dgvRenglones&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmPOS&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;dgvRenglones&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.5348086921"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="stacktext" type="S" value="M_S_dolares"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="45582.6721875"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-31"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object right" type="I" value="1260"/>
+					<Prp name="object bottom" type="I" value="624"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="598"/>
+					<Prp name="click point x" type="I" value="-321"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso"/>
+					<Prp name="image file name" type="S" value="tcvi7985501589921.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="1130"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45586.7845914931"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object right" type="I" value="1008"/>
+					<Prp name="object bottom" type="I" value="499"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="478"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="904"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmPOS&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;txtIngreso&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.5345929167"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="45582.6725694444"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-605"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="178"/>
+					<Prp name="object bottom" type="I" value="163"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="129"/>
+					<Prp name="click point x" type="I" value="-334"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmSubTotal.npnlBase.pnlRenglones.RenglonSubtotal.txtFPCodigo"/>
+					<Prp name="image file name" type="S" value="tcvi7988803189927.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="128"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage9_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45586.7846892708"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="143"/>
+					<Prp name="object bottom" type="I" value="130"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="103"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmSubTotal.npnlBase.pnlRenglones.RenglonSubtotal.txtFPCodigo"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="103"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="'2[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.CCPDV.FrmSubTotal.npnlBase.pnlRenglones.RenglonSubtotal.txtFPCodigo&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmSubTotal&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;pnlRenglones&quot;).WinFormsObject(&quot;RenglonSubtotal&quot;).WinFormsObject(&quot;txtFPCodigo&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.5346913542"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="45582.6722569444"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="213"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object right" type="I" value="1265"/>
+					<Prp name="object bottom" type="I" value="570"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="165"/>
+					<Prp name="click point x" type="I" value="216"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmBuscadorArticulosReducido.npnlBase.dgvDatos"/>
+					<Prp name="image file name" type="S" value="tcvi7986165689923.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="15"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage6_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45586.7846100463"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="166"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object right" type="I" value="1012"/>
+					<Prp name="object bottom" type="I" value="456"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="132"/>
+					<Prp name="click point x" type="I" value="186"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmBuscadorArticulosReducido.npnlBase.dgvDatos"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="12"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The grid cell (0, 'Descripción') was double-clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.CCPDV.FrmBuscadorArticulosReducido.npnlBase.dgvDatos&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmBuscadorArticulosReducido&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;dgvDatos&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.5346122338"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="45582.6723842593"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-31"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object right" type="I" value="1260"/>
+					<Prp name="object bottom" type="I" value="624"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="598"/>
+					<Prp name="click point x" type="I" value="-321"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso"/>
+					<Prp name="image file name" type="S" value="tcvi7987223489926.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="1130"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage8_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45586.7846427083"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object right" type="I" value="1008"/>
+					<Prp name="object bottom" type="I" value="499"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="478"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="904"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="'[F12]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmPOS&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;txtIngreso&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.5346561111"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="45582.6726157407"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-605"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="object right" type="I" value="621"/>
+					<Prp name="object bottom" type="I" value="163"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="129"/>
+					<Prp name="click point x" type="I" value="-334"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmSubTotal.npnlBase.pnlRenglones.RenglonSubtotal.txtMonto"/>
+					<Prp name="image file name" type="S" value="tcvi7989226589929.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="521"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage10_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45586.7846926736"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="object right" type="I" value="497"/>
+					<Prp name="object bottom" type="I" value="130"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="103"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmSubTotal.npnlBase.pnlRenglones.RenglonSubtotal.txtMonto"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="417"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="'[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.CCPDV.FrmSubTotal.npnlBase.pnlRenglones.RenglonSubtotal.txtMonto&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmSubTotal&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;pnlRenglones&quot;).WinFormsObject(&quot;RenglonSubtotal&quot;).WinFormsObject(&quot;txtMonto&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.5347047685"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45586.7845882292"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="509"/>
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="object right" type="I" value="352"/>
+					<Prp name="object bottom" type="I" value="524"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="495"/>
+					<Prp name="click point x" type="I" value="308"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmVisorReportes.npnlBase.btnCerrar"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="265"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.CCPDV.FrmVisorReportes.npnlBase.btnCerrar&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmVisorReportes&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;btnCerrar&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.5345891319"/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="45582.6729166667"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="248"/>
+					<Prp name="line #" type="I" value="24"/>
+					<Prp name="object right" type="I" value="838"/>
+					<Prp name="object bottom" type="I" value="808"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="98"/>
+					<Prp name="click point x" type="I" value="438"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmPOS.npnlBase.dgvRenglones"/>
+					<Prp name="image file name" type="S" value="tcvi79918921899217.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="25"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="24"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage14_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45586.7847981018"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="198"/>
+					<Prp name="line #" type="I" value="24"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="object bottom" type="I" value="646"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="78"/>
+					<Prp name="click point x" type="I" value="350"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmPOS.npnlBase.dgvRenglones"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="20"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The drag operation was performed with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="24"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="The mouse cursor was dragged with the no key pressed.&#xA;&#xA;Start point: 330, 120.&#xA;End point: 369, 120.&#xA;Dragging distance: 39, 0.&#xA;&#xA;Tested object:&#xA;Aliases.CCPDV.FrmPOS.npnlBase.dgvRenglones&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmPOS&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;dgvRenglones&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.5348002199"/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="45582.6756481481"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-161"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object right" type="I" value="380"/>
+					<Prp name="object bottom" type="I" value="158"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="130"/>
+					<Prp name="click point x" type="I" value="-321"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmBuscadorArticulosReducido.npnlBase.txtBusqueda"/>
+					<Prp name="image file name" type="S" value="tcvi8015440689922.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="130"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage18_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45586.7848147106"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object right" type="I" value="304"/>
+					<Prp name="object bottom" type="I" value="126"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="104"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmBuscadorArticulosReducido.npnlBase.txtBusqueda"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="104"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'au[BS]fua[BS][BS][BS]gua[Tab][Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.CCPDV.FrmBuscadorArticulosReducido.npnlBase.txtBusqueda&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmBuscadorArticulosReducido&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;txtBusqueda&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.5348433796"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="message" type="S" value="Overlapping window"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmSubTotal&quot;)"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="date" type="D" value="45586.5349325463"/>
+		</Node>
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="45582.6758333333"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-31"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object right" type="I" value="1260"/>
+					<Prp name="object bottom" type="I" value="624"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="598"/>
+					<Prp name="click point x" type="I" value="-321"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso"/>
+					<Prp name="image file name" type="S" value="tcvi8017021889923.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="1130"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage19_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45586.7848519097"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object right" type="I" value="1008"/>
+					<Prp name="object bottom" type="I" value="499"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="478"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="904"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'[F12]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmPOS&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;txtIngreso&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.5348652662"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45586.7845798727"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="152"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object right" type="I" value="311"/>
+					<Prp name="object bottom" type="I" value="558"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="102"/>
+					<Prp name="click point x" type="I" value="87"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmReportesCC.npnlBase.nvpnlReportes"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="6"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The 'Contenido de Caja' item of the 'Punto venta' group was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.CCPDV.FrmReportesCC.npnlBase.nvpnlReportes&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmReportesCC&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;nvpnlReportes&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45586.5345812963"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

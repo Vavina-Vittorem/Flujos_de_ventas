@@ -1,28 +1,25 @@
 ﻿def TestLatestTicketDetails():
-    # Create a Connection object
+    # Creamos conexion a base de datos
     AConnection = ADO.CreateADOConnection()
-    
-    # Specify the connection string
+
     AConnection.ConnectionString = "Provider=SQLOLEDB; " +\
         "Data Source=192.168.210.10; " +\
         "Initial Catalog=compucaja1801; " +\
         "User ID=consultaocs; " +\
         "Password=M1K10SK0;" +\
         "TrustServerCertificate=true;"
-    
-    # Suppress the login dialog box
+        
     AConnection.LoginPrompt = False
     AConnection.Open()
 
-    # Execute a query to get the details of the latest ticket
+    #Ejecutamos Query de consulta a detalle del ticket
     query = '''SELECT TOP 1 * 
                FROM DetallesTicket
-               WHERE FolTda_Codigo = 1801 
-               ORDER BY FolConsecutivo DESC'''
+               WHERE FolTda_Codigo = 1801'''
 
     RecSet = AConnection.Execute_(query)
     
-    # Retrieve data from RecSet before closing the connection
+    #Almacenamos la info en una lista
     ticket_details = []
     if not RecSet.EOF:
         detail = {
@@ -34,10 +31,11 @@
          
         }
         ticket_details.append(detail)
+    #Cerramos la conexion a la DB
+    AConnection.Close() 
     
-    AConnection.Close()  # Close the connection after processing the results
     
-    # Log the ticket details to TestComplete
+    #Mostramos el valor en el log de test complete
     if ticket_details:
         Log.Message("Detalles del último ticket:")
         for detail in ticket_details:

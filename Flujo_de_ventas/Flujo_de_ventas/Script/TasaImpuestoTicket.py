@@ -1,8 +1,7 @@
 ﻿def TestLatestTicketDetails():
-    # Create a Connection object
+    #Creamos conexion a DB
     AConnection = ADO.CreateADOConnection()
     
-    # Specify the connection string
     AConnection.ConnectionString = "Provider=SQLOLEDB; " +\
         "Data Source=192.168.210.10; " +\
         "Initial Catalog=compucaja1801; " +\
@@ -10,19 +9,16 @@
         "Password=M1K10SK0;" +\
         "TrustServerCertificate=true;"
     
-    # Suppress the login dialog box
     AConnection.LoginPrompt = False
     AConnection.Open()
 
-    # Execute a query to get the details of the latest ticket
+    #Corremos Query de busqueda para Tasa y total de impuestos aplicables
     query = '''SELECT TOP 1 * 
                FROM TasasImpuestosT
-               WHERE FolTda_Codigo = 1801 
-               ORDER BY FolConsecutivo DESC'''
+               WHERE FolTda_Codigo = 1801'''
 
     RecSet = AConnection.Execute_(query)
     
-    # Retrieve data from RecSet before closing the connection
     ticket_details = []
     if not RecSet.EOF:
         detail = {
@@ -34,15 +30,13 @@
         }
         ticket_details.append(detail)
     
-    AConnection.Close()  # Close the connection after processing the results
+    #Cerramos DB
+    AConnection.Close()
     
-    # Log the ticket details to TestComplete
+    #Mostramos en log de test compelete el resultado
     if ticket_details:
         Log.Message("Tasa de impuesto e Importe del Impuesto:")
         for detail in ticket_details:
             Log.Message(str(detail))
     
     return ticket_details if ticket_details else None
-
-# Call the function to test it
-#TestLatestTicketDetails()

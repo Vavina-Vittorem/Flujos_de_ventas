@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="stacktext" type="S" value="Consulta_valores_caja"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{669307B0-5825-449D-B953-0D08CB56A18A}"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="message" type="S" value="NameError: name 'efectivo_match' is not defined"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45586.5270642014"/>
+			<Prp name="remarks" type="S" value="Python runtime error.&#xA;&#xA;NameError: name 'efectivo_match' is not defined&#xA;&#xA;Error location:&#xA;Unit: &quot;Flujo_de_ventas\Flujo_de_ventas\Script\Consulta_Caja_D&quot;&#xA;Line: 15 Column: 1."/>
+			<Prp name="stack end" type="I" value="0"/>
+		</Node>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45586.7769848843"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="598"/>
+					<Prp name="object right" type="I" value="1260"/>
+					<Prp name="object left" type="I" value="1130"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="624"/>
+					<Prp name="line #" type="I" value="4"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45586.5269886111"/>
+			<Prp name="remarks" type="S" value="'^r' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.CCPDV.FrmPOS.npnlBase.txtIngreso&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmPOS&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;txtIngreso&quot;))"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 3">
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45586.5270697685"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="stack end" type="I" value="1"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45586.7769913194"/>
+					<Prp name="object name" type="S" value="Aliases.CCPDV.FrmReportesCC.npnlBase.nvpnlReportes"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="128"/>
+					<Prp name="object right" type="I" value="388"/>
+					<Prp name="object left" type="I" value="7"/>
+					<Prp name="click point y" type="I" value="191"/>
+					<Prp name="click point x" type="I" value="108"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="698"/>
+					<Prp name="line #" type="I" value="5"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The 'Contenido de Caja' item of the 'Punto venta' group was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45586.5269930093"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.CCPDV.FrmReportesCC.npnlBase.nvpnlReportes&#xA;(Sys.Process(&quot;CCPDV&quot;).WinFormsObject(&quot;FrmReportesCC&quot;).WinFormsObject(&quot;npnlBase&quot;).WinFormsObject(&quot;nvpnlReportes&quot;))"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

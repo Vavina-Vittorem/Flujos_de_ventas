@@ -1,8 +1,7 @@
 ﻿def TestLatestTicketDetails():
-    # Create a Connection object
+    # Creamos conexion a la Base de Datos
     AConnection = ADO.CreateADOConnection()
     
-    # Specify the connection string
     AConnection.ConnectionString = "Provider=SQLOLEDB; " +\
         "Data Source=192.168.210.10; " +\
         "Initial Catalog=compucaja1801; " +\
@@ -10,39 +9,33 @@
         "Password=M1K10SK0;" +\
         "TrustServerCertificate=true;"
     
-    # Suppress the login dialog box
     AConnection.LoginPrompt = False
     AConnection.Open()
 
-    # Execute a query to get the details of the latest ticket
+    # Query de consulta a Importe y Forma de pago
     query = '''SELECT TOP 1 * 
                FROM ImporteFormaPagoTicket
-               WHERE FolTda_Codigo = 1801 
-               ORDER BY FolConsecutivo DESC'''
+               WHERE FolTda_Codigo = 1801'''
 
     RecSet = AConnection.Execute_(query)
     
-    # Retrieve data from RecSet before closing the connection
+    # Asignamos los valores a una lista
     ticket_details = []
     if not RecSet.EOF:
         detail = {
             "Folio": RecSet.Fields.Item["FolConsecutivo"].Value,
             "FormaDePago": RecSet.Fields.Item["FP_Codigo"].Value,
             "Importe": RecSet.Fields.Item["IFPT_Importe"].Value,
-            
-         
         }
         ticket_details.append(detail)
+        
+    # Cerramos conexion a la DB
+    AConnection.Close()  
     
-    AConnection.Close()  # Close the connection after processing the results
-    
-    # Log the ticket details to TestComplete
+    # Mostramos resultados en el log de TestComplete
     if ticket_details:
         Log.Message("Forma de Pago e Importe:")
         for detail in ticket_details:
             Log.Message(str(detail))
     
     return ticket_details if ticket_details else None
-
-# Call the function to test it
-#TestLatestTicketDetails()

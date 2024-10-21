@@ -11,8 +11,9 @@
 				<child name="Test_Tickets" key="{175C946E-2682-4AE8-98A4-612CEB8C30BA}" path="Test_Tickets.py" />
 			</folder>
 			<child name="Login" key="{4CEABF51-CF58-4F40-AC34-8FCA53FAAA29}" path="Login.py" />
-			<child name="Consulta_caja" key="{2E4B4729-6623-41C4-BE27-3A489263DA9B}" path="Consulta_caja.py" />
+			<child name="Consulta_caja_E" key="{2E4B4729-6623-41C4-BE27-3A489263DA9B}" path="Consulta_caja_E.py" />
 			<child name="Cancelar_compra" key="{F86F667D-2F52-4367-B903-A49B578E1825}" path="Cancelar_compra.py" />
+			<child name="Consulta_caja_D" key="{669307B0-5825-449D-B953-0D08CB56A18A}" path="Consulta_caja_D.py" />
 		</folder>
 		<folder name="F_Efectivo">
 			<child name="MontoMen_E" key="{104BF17F-554C-45EF-9E90-E8F146E6FB65}" path="MontoMen_E.py" />
